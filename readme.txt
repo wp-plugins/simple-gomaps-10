@@ -13,7 +13,7 @@ This plugin put a map of Google Maps with a custom field that will contain the c
 
 **In Spanish:**
 
-Este plugin pone un mapa de Google Maps con un campo personalizado que contendrá la coordenadas del marcador. Se puede utilizar cuando el administrador desea obtener alguna ubicacion.
+Este plugin pone un mapa de Google Maps con un campo personalizado que contendra la coordenadas del marcador. Se puede utilizar cuando el administrador desea obtener alguna ubicacion.
 
 == Installation ==
 
@@ -34,8 +34,13 @@ It save coordinates in a custom field called "pto_gomaps".
 
 = How can I show it in my theme ? =
 
-If you use it in Admin Post, you can use `<?php get_post_meta($post->ID,'pto_gomaps', true) ?>` in Loop
-If you use it in User Profile, you can use `<?php the_author_meta('pto_gomaps',$user->ID) ?>`
+If you use it in Admin Post, you can use : 
+
+`<?php get_post_meta($post->ID,'pto_gomaps', true) ?>` in Loop.
+
+If you use it in User Profile, you can use : 
+
+`<?php the_author_meta('pto_gomaps',$user->ID) ?>`
 
 == Screenshots ==
 
