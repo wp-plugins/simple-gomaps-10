@@ -1,3 +1,12 @@
+=== Plugin Name ===
+Contributors: Alex Gonz&aacute;les
+Tags: google maps, post, user, marker, coordinates, latitude, longitude
+Requires at least: 1.0
+Tested up to: 1.0
+Stable tag: trunk
+
+Simple GoMaps is a Wordpres Plugin that allows insert map of Google Maps in user profile or admin post, for obtain the coordinates.
+
 == Description ==
 
 This plugin put a map of Google Maps with a custom field that will contain the coordinates of marker.  It can use when the administrator want obtain some ubication.
