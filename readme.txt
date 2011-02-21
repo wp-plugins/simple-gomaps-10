@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: Alex Gonz&aacute;les
+Contributors: Alex Gonzales
 Tags: google maps, post, user, marker, coordinates, latitude, longitude
 Requires at least: 1.0
 Tested up to: 1.0
