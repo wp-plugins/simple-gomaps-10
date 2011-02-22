@@ -34,11 +34,11 @@ It save coordinates in a custom field called "pto_gomaps".
 
 = How can I show it in my theme ? =
 
-If you use it in Admin Post, you can use : 
+If you use it in Admin Post, you can use :
 
 `<?php get_post_meta($post->ID,'pto_gomaps', true) ?>` in Loop.
 
-If you use it in User Profile, you can use : 
+If you use it in User Profile, you can use :
 
 `<?php the_author_meta('pto_gomaps',$user->ID) ?>`
 
