@@ -8,7 +8,7 @@ Description: A simple plugin for add a custom field in Admin Post or User Profil
 Author: Alexander Gonz&aacute;les
 */
 
-require_once WP_PLUGIN_DIR.'/gomaps/language.php';
+require_once WP_PLUGIN_DIR.'/simple-gomaps-10/language.php';
 
 class gomaps {
 
@@ -102,7 +102,7 @@ class gomaps {
 	*************************/
 	function head_gomaps() {
 		echo '<script src="http://maps.google.com/maps?file=api&amp;v=2.x&amp;key='.get_option('api_gomaps').'" type="text/javascript"></script>';
-		echo '<script src="'.WP_PLUGIN_URL.'/gomaps/gomaps.js" type="text/javascript"></script>';
+		echo '<script src="'.WP_PLUGIN_URL.'/simple-gomaps-10/gomaps.js" type="text/javascript"></script>';
 	
 		return true;
 	}
@@ -135,7 +135,7 @@ class gomaps {
 			$code_api = get_option('api_gomaps');
 			$type_api = explode(',',get_option('type_gomaps'));
 		}
-		require_once WP_PLUGIN_DIR.'/gomaps/template_admin.php';
+		require_once WP_PLUGIN_DIR.'/simple-gomaps-10/template_admin.php';
 	
 		return true;
 	}
