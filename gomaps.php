@@ -173,7 +173,7 @@ if($gomaps->verify_gomaps()) {
 		add_action('edit_user_profile', array(&$gomaps,'add_gomaps_user'));
 		/*	When save a user profile	*/
 		add_action('personal_options_update', array(&$gomaps,'safields_gomaps_user'));
-		add_action('edit_user_profile_update', array(&$gomaps,'safields_gomaps_user''));
+		add_action('edit_user_profile_update', array(&$gomaps,'safields_gomaps_user'));
 
 	}
 }
